@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testbase.kuangjia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!--
+ 为了测试ActionBar
+ <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.example.testbase.ImageLoader1.UILApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!--
+        com.example.testbase.dialog.MainActivity_dialog 0
+        com.example.testbase.dialog1.MyDlgActivity 1
+        -->
+        <activity
+            android:name="com.example.testbase.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testbase.dialog1.MyDlgActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.dialog2.DialogActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.liangjiliandong.AddCityActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.multilistview.MultiActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.mrwu.listviewAndCheckbox.PerfectListviewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Horizontalview.HorizontalviewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.yuan.mytmall.PayActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.xlistview.XListViewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.imooc.weixin.WeiXin_uiMainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.actionbar.MyActionbar"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.actionbar.MyActionbar1"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.actionbartest.LaunchActivity" />
+        <activity
+            android:name="com.example.testbase.actionbar.MainActivity_actionbar_guolin1"
+            android:label="@string/app_name" />
+        <activity
+            android:name="org.lmw.demo.slidingtab.PagerSlidingTabStripActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.wechatsample.MainPaperSlidingActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu.MainActivity_slidemenu1"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu.MainActivity_slidemenu2"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu.MainActivity_slidemenu3"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu1.MainActivity_slideMenuNew"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu4.MainActivity_slideMenu4"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu3.MainActivity_slideMenuNew"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu3.MainActivity_slideMenu5"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.fragment.Main_fragmentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu5yixin.MainActivity_yinxin"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.slidemenu5yixin.AboutActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.voicedemo.MainVoiceActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.voicedemo1.MainVoiceActivity1"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.notigication.MainActivity_notification"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.log.ToastLogActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.CommonEditText.editTextActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.CommonEditText1.CleareditActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.autoScrollTextView.ScrolltextActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.dialog3.dionewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Animation.AnibaseActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Animation.Animation1Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Animation.Animation2Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.sw0.MainTab0"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.sw.MainTab"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.sw2.MainTab2"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.sw3backTop.MainTab3"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.popwindow.PopwinActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.camaPic.CamaActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.imooc.tab01.Tab01Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.imooc.tab02.Tab02Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.imooc.tab03.Tab03Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.imooc.tab04.Tab04Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.imooc.guaguaka.Guaguaka_Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.example.testbase.imooc.wechat6.Wechat6Activity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader1.HomeActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader1.ImageListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader1.ImageGridActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader1.ImageGalleryActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader1.ImagePagerActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader2.GalleryActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader2.GridviewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader2.ListImageActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader2.LoadmainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader2.PagerActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ImageLoader2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.downloadfile.IndexActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.AnimRoundProcessDialog.AnimRoundProcessDialog"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.listviewnew.ListViewMainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.listviewfragmentdemo.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.scrollView.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.camaPic.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.cloudSpeech.BaseCloudActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.cloudSpeech.MyMainActivity2"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.cloudSpeech.MyMainActivity3"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Animation2.ActivityannimationLoad"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.SQlite.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.flowview.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.base.MainActivityHongyang"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.example.testbase.hongyang.CustomView.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.CustomView2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.CustomView3.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.CustomView4.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.activitydialog.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.activitydialog.MainWeixinTitleRightActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.SwipeRefreshLayout.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.example.testbase.pulltorefresh.MainActivityPullToRefresh"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.pulltorefresh.PullToRefreshListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.pulltorefresh.PullToRefreshListActivityBoth"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.pulltorefresh.PullToRefreshListActivityBottom"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Tuling.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.zhujie.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.zhujie2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.zhujie.base.MainActivityzhujie"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.IOC.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.IOC2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.ScaleGesture.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.ScaleGesture2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.ScaleGesture3ViewPager.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.weixinCaijian.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.weixinCaijian.ShowImageActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.QQceshua.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.Fragment1.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.Fragment3.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.DialogFragment.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.guolin.base.MainActivityGuolin"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.guolin.xuanfu.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.guolin.fragment1.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.intentService2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.AlarmManager.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.AlarmManager.MessageActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.ListViewSwipeGesture.MyActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.TabFragment.MainTabActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity11"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity12"
+            android:label="@string/app_name"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity13"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity21"
+            android:label="@string/app_name"
+            android:theme="@style/Anim_style" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity22"
+            android:label="@string/app_name"
+            android:theme="@style/Anim_style" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity23"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity31"
+            android:label="@string/app_name"
+            android:theme="@style/AnimHead" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity32"
+            android:label="@string/app_name"
+            android:theme="@style/AnimHead" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity33"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity41"
+            android:label="@string/app_name"
+            android:theme="@style/AnimTop2" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity42"
+            android:label="@string/app_name"
+            android:theme="@style/AnimTop2" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity43"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity51"
+            android:label="@string/app_name"
+            android:theme="@style/AnimTop" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity52"
+            android:label="@string/app_name"
+            android:theme="@style/AnimTop" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity53"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity61"
+            android:label="@string/app_name"
+            android:theme="@style/AnimBottom" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity62"
+            android:label="@string/app_name"
+            android:theme="@style/AnimBottom" />
+        <activity
+            android:name="com.example.testbase.aniastyle.AnistyleActivity63"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.file.FileActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.file.FileDowloadActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Calendar.CanlenderActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.UI.MyUIActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.myletterSort.LetterSortActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.myletterSort2.LetterSortActivity2"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.recoder.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.citysidebar3.LetterSortActivity3"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.citysidebar4.LetterSortActivity4"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.circleprogress.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.bowenxiaoguo.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.bowenxiaoguo.FragmentSampleActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.bowenxiaoguo.SingleChildActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.bowenxiaoguo.MultiChildActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.bowenxiaoguo2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.Animator.AnimatorActivity1"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.AnimatorActivity2"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.AnimatorSetActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.CategoryListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.LayoutAnimaActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.ObjectAnimActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.ValueAnimatorActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.ViewAnimateActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.hongyang.animator.Xml4AnimActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.recyclerviewdemo.RecycleViewActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.guolin.customView.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.photowallfallsdemo.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.mypopupwindow.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.uiButton.library.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.sms.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.sms2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.view.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.view2.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.view3.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.view.base.BaseActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.rippleeffect.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.testbase.rippleeffect.MainActivity1"
+            android:label="@string/app_name" />
+        
+        
+         <activity
+            android:name="com.jingchen.pulltorefresh.MainActivity"
+            android:label="@string/app_name" >
+          
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableExpandableListViewActivity" >
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableGridViewActivity" >
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableListViewActivity" >
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableScrollViewActivity" >
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableWebViewActivity" >
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableImageViewActivity" >
+        </activity>
+        <activity android:name="com.jingchen.pulltorefresh.activity.PullableTextViewActivity" >
+        </activity>
+        
+        
+        
+        
+          <activity
+            android:name="com.example.testbase.recyclerviewdemo2.RecycleViewActivity"
+            android:label="@string/app_name" />
+     
+
+        <service android:name="com.example.testbase.AlarmManager.PollingService" >
+        </service>
+        <service android:name="com.example.testbase.intentService2.IntentServiceDemo" >
+        </service>
+        <service android:name="com.example.testbase.guolin.xuanfu.FloatWindowService" >
+        </service>
+        <!--
+                     ActionBar导航功能只需三步走。
+第一步我们已经实现了，就是调用setDisplayHomeAsUpEnabled()方法，并传入true。
+第二步需要在AndroidManifest.xml中配置父Activity，如下所示：
+        -->
+
+
+        <!--
+           <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value="com.example.actionbartest.LaunchActivity" />
+        -->
+
+
+        <!--
+                     可以看到，这里通过meta-data标签指定了MainActivity的父Activity是LaunchActivity，
+                     在Android 4.1版本之后，也可以直接使用android:parentActivityName这个属性来进行指定，如下所示：
+        -->
+
+
+        <!-- 第三步则需要对android.R.id.home这个事件进行一些特殊处理，如下所示： -->
+    </application>
+
+    <!-- 访问internet权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问internet状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 读写SD卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Notification震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" >
+    </uses-permission>
+
+</manifest>

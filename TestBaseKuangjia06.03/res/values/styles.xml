@@ -1,0 +1,256 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:actionOverflowButtonStyle">@style/weixinOverflowStyle</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    <!-- 改变Overflow图标+没有用
+     -->
+    
+    
+   
+    <style name="weixinOverflowStyle">
+        <item name="android:src">@drawable/actionbar_add_icon</item>
+        
+    </style>
+    
+    <style name="CustomDialog_1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- POPwin -->
+     <style name="AnimationPreview">
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+    </style>
+    
+    <style name="iphone_progress_dialog" parent="@android:style/Theme.Dialog">
+  <item name="android:windowFrame">@null</item><!--Dialog的windowFrame框为无 -->
+  <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上 -->
+  <item name="android:windowIsTranslucent">true</item> <!-- 是否半透明 -->
+  <item name="android:windowNoTitle">true</item>
+  <item name="android:backgroundDimEnabled">false</item>
+  <item name="android:windowBackground">@drawable/load_bg</item>
+</style>
+      
+    
+      <style name="dialog" parent="@android:style/Theme.Dialog">
+      <item name="android:windowIsFloating">true</item>     <!-- 设置未浮动窗口 -->
+    <item name="android:windowFrame">@null</item>         <!-- 设置无边框 -->     
+    <item name="android:windowNoTitle">true</item>        <!-- 设置无标题 -->
+    <item name="android:windowBackground">@color/sc_transparent_background</item>  <!-- 设置完全透明 -->
+    <item name="android:backgroundDimEnabled">true</item>                          <!-- 设置屏幕变暗 -->   
+  </style>
+  
+        <style name="A1_Font">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/text_white_shadow_color</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    
+        
+       <!-- Notification --> 
+          <style name="NotificationContent">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btn_custom_style">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_gravity">center|right</item>
+        <item name="android:background">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    
+     <!-- 自定义对话框xml  style -->
+    <style name="mystyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+     <!-- 照相裁剪POP-->
+     <style name="Animations_GrowFromBottom">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    
+     <!-- 列表页面加载进度提示动画 开始 Widget.ProgressBar.Small -->
+    <style name="loading_l" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/customer_loading</item>
+        <item name="android:layout_width">32dip</item>
+        <item name="android:layout_height">32dip</item>
+    </style>
+    
+       
+     <!-- 字体样式 start -->
+    <style name="chat_date_style">
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="android:background">#BEBDBE</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    <style name="AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in1</item>
+        <item name="android:activityOpenExitAnimation">@anim/hold1</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out1</item>
+    </style>
+
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right1</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left1</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right1</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left1</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in1</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out1</item>
+    </style>
+
+    <style name="AnimTop" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_top_in1</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out1</item>
+    </style>
+
+    <style name="AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_top_in21</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out21</item>
+    </style>
+
+    <style name="AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/head_in1</item>
+        <item name="android:windowExitAnimation">@anim/head_out1</item>
+    </style>
+
+    <style name="Anim_style" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+
+    <style name="Anim_style2" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    
+    
+    
+    
+    
+     <!-- dialog -->
+     <style name="TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHighlight">#FFFFFF</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+        <item name="android:textColorLink">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+     <style name="TextAppearance.DialogWindowTitle">
+        <item name="android:textSize">18sp</item>
+    </style>
+       <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.DialogWindowTitle</item>
+    </style>
+     <style name="alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+     
+     
+      <style name="base_large_progressbar_style">
+        <item name="android:maxWidth">38.0dip</item>
+        <item name="android:maxHeight">38.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/base_loading_large_anim</item>
+        <item name="android:minWidth">38.0dip</item>
+        <item name="android:minHeight">38.0dip</item>
+    </style>
+    
+     
+       <style name="base_listview_style" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarThumbVertical">@drawable/base_list_scrollbar_handle</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:alwaysDrawnWithCache">true</item>
+        <item name="android:listSelector">@drawable/base_list_selector</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+    
+       
+             <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+    
+             
+             
+              <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    
+              
+              
+              
+   
+              
+              
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yuan.mytmall.MagicScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/magic_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/oriange"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="昨日收益"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <com.yuan.mytmall.MagicTextView
+                android:id="@+id/income_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="0.00"
+                android:textColor="@color/white"
+                android:textSize="60sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="总金额(元)"
+            android:textColor="@color/gray"
+            android:textSize="20sp" />
+
+        <com.yuan.mytmall.MagicTextView
+            android:id="@+id/total_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="0.00"
+            android:textColor="@color/oriange"
+            android:textSize="45sp" />
+
+        <LinearLayout
+            android:id="@+id/income_total_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_gray" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="累计收益(元)"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <com.yuan.mytmall.MagicTextView
+                    android:id="@+id/income_total_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="0.0"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="七日年化收益率"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <com.yuan.mytmall.MagicTextView
+                    android:id="@+id/income_sevdays_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="0.00"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/income_nearly_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="近一周收益(元)"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <com.yuan.mytmall.MagicTextView
+                    android:id="@+id/income_week_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="0.00"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="近一月收益(元)"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <com.yuan.mytmall.MagicTextView
+                    android:id="@+id/income_month_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="0.0"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="南京市"
+            android:textColor="@color/oriange"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="你的收益战胜了"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center" >
+
+            <com.yuan.mytmall.MagicTextView
+                android:id="@+id/overperson_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0.00"
+                android:textColor="@color/oriange"
+                android:textSize="35sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="%"
+                android:textColor="@color/oriange"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="超过"
+            android:textColor="@color/gray" />
+
+        <com.yuan.mytmall.MagicTextView
+            android:id="@+id/overperson_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/gray"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</com.yuan.mytmall.MagicScrollView>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testbase.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_voice"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:hint="语音" />
+
+            <ImageButton
+                android:id="@+id/speech"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/def_selector"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@drawable/icon_microphone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/serach_selector"
+                android:text="开始说话"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            
+             <Button
+                android:id="@+id/btn2"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/serach_selector"
+                android:text="取消"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

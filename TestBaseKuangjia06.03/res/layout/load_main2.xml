@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="基本使用"/>
+
+     <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="list"/>
+     
+       <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="grid"/>
+       
+       <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="ViewPager"/>
+       
+        <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Gallery"/>
+
+</LinearLayout>

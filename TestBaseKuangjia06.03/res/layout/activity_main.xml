@@ -1,0 +1,632 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="1自定义Dialog" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="2自定义Dialog(测量屏幕宽度)" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="3城市两级联动Listview" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="4效果更好的两级联动MultiListview" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="5ListView和CheckBox完美版，全选全不选，删除" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="6Horizontalview没有处理点击事件" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="7余额宝数字滚动" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="8XlistView上拉加载下拉刷新" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="9微信4.2主界面，bageView效果，android.support.v4.view.ViewPager" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="10ActionBar基本用法" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="11ActionBar基本用法1" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="12郭林ActionBar基本用法1" />
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="13Android滑动页面导航效果: PagerSlidingTabStrip" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="14郭林微信滑动页面导航效果: PagerSlidingTabStrip" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="15鸿洋 Android SlidingMenu demo1" />
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="16鸿洋 Android SlidingMenu demo2" />
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="17鸿洋 Android SlidingMenu demo4" />
+
+            <Button
+                android:id="@+id/btn18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="18Android SlidingMenu 开源项目使用示例(一)" />
+
+            <Button
+                android:id="@+id/btn19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="19Android SlidingMenu 开源项目使用示例(二)" />
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="20Android:Activity+Fragment及它们之间的数据交换（一）" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="21 Android仿易信界面SlidingMenu左右滑动" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="22 录音及播放" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="23 录音及播放1" />
+
+            <Button
+                android:id="@+id/btn24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="24 我的 Notification" />
+
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="25 很好的 Notification" />
+
+            <Button
+                android:id="@+id/btn26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="26 Toast和L以及各种工具类集合" />
+
+            <Button
+                android:id="@+id/btn27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="27 自定义输入框(带clear所有内容功能)" />
+
+            <Button
+                android:id="@+id/btn28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="28 自定义输入框(带clear所有内容功能)2" />
+
+            <Button
+                android:id="@+id/btn29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="29 跑马灯的文字" />
+
+            <Button
+                android:id="@+id/btn30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="30 new Diolog和网络判断设置" />
+
+            <Button
+                android:id="@+id/btn31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="31 sw的框架，0com.example.testbase.sw0" />
+
+            <Button
+                android:id="@+id/btn32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="32 动画效果集合" />
+
+            <Button
+                android:id="@+id/btn33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="33 sw的框架，0com.example.testbase.sw,fragment通信" />
+
+            <Button
+                android:id="@+id/btn34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="34 sw的框架，0com.example.testbase.sw2,数据" />
+
+            <Button
+                android:id="@+id/btn35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="35 sw的框架，0com.example.testbase.sw3,回到顶部" />
+
+            <Button
+                android:id="@+id/btn36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="36 自定义POPwindow" />
+
+            <Button
+                android:id="@+id/btn37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="37 拍照本地图片裁剪" />
+
+            <Button
+                android:id="@+id/btn38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="38 Tab01-ViewPager" />
+
+            <Button
+                android:id="@+id/btn39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="39 Tab02-Fragment" />
+
+            <Button
+                android:id="@+id/btn40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="40 Tab03-FragmentPagerAdapter+ViewPager" />
+
+            <Button
+                android:id="@+id/btn41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="41 Tab04-ViewPagerIndicator+ViewPager" />
+
+            <Button
+                android:id="@+id/btn42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="42 刮刮卡" />
+
+            <Button
+                android:id="@+id/btn43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="43 WeChat6.0" />
+
+            <Button
+                android:id="@+id/btn44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="44 UniversialImageLoader" />
+
+            <Button
+                android:id="@+id/btn45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="45 自己的UniversialImageLoader" />
+
+            <Button
+                android:id="@+id/btn46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="46 进度提示下载的ProgressBar" />
+
+            <Button
+                android:id="@+id/btn47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="47 三种方式自定义圆形进度条" />
+
+            <Button
+                android:id="@+id/btn48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="48 ListView的不同item加载不同Layout" />
+
+            <Button
+                android:id="@+id/btn49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="49 listview+Fragment特效Demo" />
+
+            <Button
+                android:id="@+id/btn50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="50 实现了联系人字母查询，汉字查询效果" />
+
+            <Button
+                android:id="@+id/btn51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="51 语音识别，APPManager,两次退出" />
+
+            <Button
+                android:id="@+id/btn52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="52 另一种动画" />
+
+            <Button
+                android:id="@+id/btn53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="53 数据库" />
+
+            <Button
+                android:id="@+id/btn54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="54 流式布局" />
+
+            <Button
+                android:id="@+id/btn55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="55 hongyang" />
+
+            <Button
+                android:id="@+id/btn56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="56 Android-PullToRefresh " />
+
+            <Button
+                android:id="@+id/btn57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="57 图灵机器人 " />
+
+            <Button
+                android:id="@+id/btn58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="58 注解 " />
+
+            <Button
+                android:id="@+id/btn59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="59 QQ侧滑删除 " />
+
+            <Button
+                android:id="@+id/btn60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="60 guolin " />
+
+            <Button
+                android:id="@+id/btn61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="61 IntentService " />
+
+            <Button
+                android:id="@+id/btn62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="62  Android AlarmManager实现不间断轮询服务 " />
+
+            <Button
+                android:id="@+id/btn63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="63  listview左侧滑动删除，炫酷UI效果 " />
+
+            <Button
+                android:id="@+id/btn64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="64  TabFragment " />
+
+            <Button
+                android:id="@+id/btn65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="65  Aniayion style " />
+
+            <Button
+                android:id="@+id/btn66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="66 Sd卡，文件下载删除等操作 " />
+
+            <Button
+                android:id="@+id/btn67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="67自定义日历时间选择" />
+
+            <Button
+                android:id="@+id/btn68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="68 fanxinUI" />
+
+            <Button
+                android:id="@+id/btn69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="69我自己的字母排序" />
+
+            <Button
+                android:id="@+id/btn70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="70我自己的字母排序2" />
+
+            <Button
+                android:id="@+id/btn71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="71录音" />
+
+            <Button
+                android:id="@+id/btn72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="72自己的城市选择" />
+
+            <Button
+                android:id="@+id/btn73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="73自己的城市选择，优化Filterable" />
+
+            <Button
+                android:id="@+id/btn74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="74 CircleProgress各种样式的圆形进度条" />
+
+            <Button
+                android:id="@+id/btn75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="75 波纹动画效果RevealLayout
+                布局切换时可以产生material design 中介绍的波纹动画效果 项目地" />
+
+            <Button
+                android:id="@+id/btn76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="76 波纹动画效果RevealLayout2" />
+
+            <Button
+                android:id="@+id/btn77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="77 Animator" />
+            
+            <Button
+                android:id="@+id/btn78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="78 RecycleView" />
+            
+               
+            <Button
+                android:id="@+id/btn79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="79 模仿UC底部Menu PopupWindow实现" />
+            
+             <Button
+                android:id="@+id/btn80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="80 UI Button" />
+             
+               
+             <Button
+                android:id="@+id/btn81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="81 获取短信1" />
+             
+             <Button
+                android:id="@+id/btn82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="82 获取短信2" />
+             
+               <Button
+                android:id="@+id/btn83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="83 我的baseActivity" />
+               
+                <Button
+                android:id="@+id/btn84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="84 自定义View" />
+                
+                  <Button
+                android:id="@+id/btn85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="85 开源RippleEffect" />
+                  
+                     <Button
+                android:id="@+id/btn86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="86 demo任意控件下拉刷新" />
+                     
+                              <Button
+                android:id="@+id/btn87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="87 RecycleView2" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

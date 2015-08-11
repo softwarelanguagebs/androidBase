@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical" >
+
+   
+             <Button
+                android:id="@+id/btn1"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/serach_selector"
+                android:text="按钮开始，取消"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+             
+             
+             
+             <Button
+                android:id="@+id/btn2"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/serach_selector"
+                android:text="自带语音UI"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+</LinearLayout>

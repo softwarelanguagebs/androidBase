@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.testbase.sw2.LoadStateView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/downloadStatusBox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:padding="20dip" >
+
+    <ProgressBar
+        android:id="@+id/progBar"
+        style="@style/loading_l"
+        android:layout_centerInParent="true" />
+
+    <!-- 提示正在加载数据，如果没有数据返回，相应提示。 -->
+
+    <TextView
+        android:id="@+id/tiptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/progBar"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black" />
+
+    <!-- android:visibility="gone"默认不显示      代码中setVisibility(View.VISIBLE) -->
+
+    <LinearLayout
+        android:id="@+id/downLoadErrMsgBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!-- 加载时候提示 -->
+
+        <TextView
+            android:id="@+id/downLoadErrText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15.0dip"
+            android:textColor="#ff23323b" />
+
+        <!-- 加载数据错误时候，按钮 : 重新加载 -->
+
+        <TextView
+            android:id="@+id/btnListLoadErr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="点击重新加载"
+            android:textColor="#37BC76"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <!--
+             <Button
+            android:id="@+id/btnListLoadErr"
+            style="@style/Btn"
+            android:text="@string/listReBtnText" />
+        -->
+
+    </LinearLayout>
+
+</com.example.testbase.sw2.LoadStateView>

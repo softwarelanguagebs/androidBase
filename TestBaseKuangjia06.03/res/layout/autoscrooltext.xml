@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.testbase.autoScrollTextView.AutoScrollTextView
+    android:id="@+id/TextViewNotice"
+    android:layout_height="30px"
+    android:layout_width="fill_parent"
+    android:text="重写的跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯"
+    android:textColor="#000"
+    android:inputType="text"
+    android:background="#EEE"
+    android:textSize="20px">
+   </com.example.testbase.autoScrollTextView.AutoScrollTextView>
+   
+    
+    <TextView
+        android:id="@+id/tv_cargos_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#DFDFD6"
+        android:clickable="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="xml的跑马灯xml的跑马灯xml的跑马灯xml的跑马灯xml的跑马灯xml的跑马灯xml的跑马灯xml的跑马灯xml的跑马灯字数够多才行"
+        android:textColor="#131313"
+        android:textSize="18sp" >
+    </TextView>
+
+</LinearLayout>

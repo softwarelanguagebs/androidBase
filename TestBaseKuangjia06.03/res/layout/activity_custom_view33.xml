@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/main_root_ll"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <com.example.testbase.view3.CustomView
+        android:id="@+id/main_cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

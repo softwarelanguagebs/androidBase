@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/audio_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_bg">
+
+    <ViewFlipper
+        android:id="@+id/audio_item_flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:flipInterval="500" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/audio_0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/audio_1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/audio_2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/audio_3" />
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/audio_item_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/audio_item_flipper"
+        android:layout_marginLeft="10dp"
+       	android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>

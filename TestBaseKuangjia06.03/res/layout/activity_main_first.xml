@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/ll_title"
+        layout="@layout/titlebar_nearby" />
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.wlfz.customer.PullToRefreshView
+            android:id="@+id/main_pull_refresh_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/xListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@drawable/kaixin_background"
+                android:dividerHeight="0.1dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:scrollbars="none" >
+            </ListView>
+        </com.wlfz.customer.PullToRefreshView>
+    -->
+    <!-- 进度提示 估计布局还要重新搞哈 -->
+    <!--
+        <include layout="@layout/customer_loading" />
+    </RelativeLayout>
+    -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HomePage" />
+
+    <include layout="@layout/customer_loading" />
+
+</LinearLayout>

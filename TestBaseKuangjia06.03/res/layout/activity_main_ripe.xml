@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+  
+            <Button 
+                android:id="@+id/btn"
+                 android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="另一种"
+                
+                />
+            <com.example.testbase.rippleeffect.RippleView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ripple:rv_centered="true" >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="#BAC9FF"
+                    android:src="@drawable/ic_launcher" />
+            </com.example.testbase.rippleeffect.RippleView>
+
+            <com.example.testbase.rippleeffect.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ripple:rv_centered="false"
+                ripple:rv_type="simpleRipple" >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="#BAC9FF"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_launcher" />
+            </com.example.testbase.rippleeffect.RippleView>
+
+            <com.example.testbase.rippleeffect.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ripple:rv_centered="true"
+                ripple:rv_type="doubleRipple" >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="#BAC9FF"
+                    android:src="@drawable/ic_launcher" />
+            </com.example.testbase.rippleeffect.RippleView>
+
+            <com.example.testbase.rippleeffect.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ripple:rv_centered="false"
+                ripple:rv_color="#E51b24"
+                ripple:rv_rippleDuration="200"
+                ripple:rv_type="simpleRipple"
+                ripple:rv_zoomDuration="200" >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="#BAC9FF"
+                    android:src="@drawable/ic_launcher" />
+            </com.example.testbase.rippleeffect.RippleView>
+            
+            
+            <com.example.testbase.rippleeffect.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ripple:rv_centered="false"
+                ripple:rv_color="#E51b24"
+                ripple:rv_rippleDuration="200"
+                  ripple:rv_zoom ="true"
+                ripple:rv_type="doubleRipple"
+                ripple:rv_zoomDuration="200" >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="#BAC9FF"
+                    android:src="@drawable/ic_launcher" />
+            </com.example.testbase.rippleeffect.RippleView>
+            
+            
+             
+            <com.example.testbase.rippleeffect.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                ripple:rv_centered="false"
+                ripple:rv_color="#E51b24"
+                ripple:rv_rippleDuration="200"
+                  ripple:rv_zoom ="true"
+                ripple:rv_type="rectangle"
+                ripple:rv_zoomDuration="200" >
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="#BAC9FF"
+                    android:src="@drawable/ic_launcher" />
+            </com.example.testbase.rippleeffect.RippleView>  
+            
+            
+              <com.example.testbase.rippleeffect.RippleView
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#4C4C4C"
+                ripple:rv_centered="false"
+                ripple:rv_color="#E51b24"
+                ripple:rv_rippleDuration="200"
+                ripple:rv_type="rectangle"
+                ripple:rv_zoomDuration="200" >
+
+            </com.example.testbase.rippleeffect.RippleView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

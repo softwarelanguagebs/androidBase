@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清除内存缓存" />
+
+        <Button
+            android:id="@+id/btnn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清除SD卡中的缓存" />
+    </LinearLayout>
+
+  <GridView
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:horizontalSpacing="4dip"
+    android:numColumns="3"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="4dip"
+    android:padding="4dip" />
+
+</LinearLayout>

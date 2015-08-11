@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     xmlns:zhy="http://schemas.android.com/apk/res/com.example.testbase.kuangjia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical" >
+   
+ <com.example.testbase.hongyang.CustomView2.CustomImageView  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_margin="10dp"  
+        android:padding="10dp"  
+        zhy:image="@drawable/ic_launcher"  
+        zhy:imageScaleType="center"  
+        zhy:titleText2="hello andorid ! "  
+        zhy:titleTextColor2="#ff0000"  
+        zhy:titleTextSize2="30sp" />  
+  
+    <com.example.testbase.hongyang.CustomView2.CustomImageView  
+        android:layout_width="100dp"  
+        android:layout_height="wrap_content"  
+        android:layout_margin="10dp"  
+        android:padding="10dp"  
+        zhy:image="@drawable/ic_launcher"  
+        zhy:imageScaleType="center"  
+        zhy:titleText2="helloworldwelcome"  
+        zhy:titleTextColor2="#00ff00"  
+        zhy:titleTextSize2="20sp" />  
+  
+   <com.example.testbase.hongyang.CustomView2.CustomImageView  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_margin="10dp"  
+        android:padding="10dp"  
+        zhy:image="@drawable/xiaodao"  
+        zhy:imageScaleType="center"  
+        zhy:titleText2="妹子~"  
+        zhy:titleTextColor2="#ff0000"  
+        zhy:titleTextSize2="12sp" />  
+
+</LinearLayout>

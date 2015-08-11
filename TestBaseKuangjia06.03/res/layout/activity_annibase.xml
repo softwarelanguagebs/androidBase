@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码实现" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xml实现" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimationSet中有两个Animation，效果叠加,XMl" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimationSet中有两个Animation，效果叠加,代码" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frame-By-Frame Animations的使用方法多张图片旋转" />
+    
+      <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一张图片旋转" />
+      
+        <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 测试LayoutAnimationsController" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+     <ImageView
+            android:id="@+id/img_proload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_marginTop="20dip"
+            android:src="@drawable/loading_blue_f0" />
+     
+     <ListView
+
+      android:id="@+id/list"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:scrollbars="vertical"
+
+        android:layoutAnimation="@anim/list_anim_layout"/>
+     
+     
+    <RelativeLayout
+
+    android:id="@+id/layout"
+
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content">
+
+    <Button android:id="@+id/addButton"
+
+       android:layout_width="fill_parent"
+
+       android:layout_height="wrap_content"
+
+       android:layout_alignParentBottom="true"
+
+       android:text="添加图片" />
+
+    <Button android:id="@+id/deleteButton"
+
+       android:layout_width="fill_parent"
+
+       android:layout_height="wrap_content"
+
+       android:layout_above="@id/addButton"
+
+       android:text="删除图片" />
+
+    <ImageView android:id="@+id/image3"
+
+       android:layout_width="wrap_content"
+
+       android:layout_height="wrap_content"
+
+       android:layout_centerInParent="true"
+
+       android:layout_marginTop="100dip"
+
+       android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
+
+
+
+     
+
+</LinearLayout>

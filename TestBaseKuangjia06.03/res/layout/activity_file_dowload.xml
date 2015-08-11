@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical" >
+
+   
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Http文件下载" />
+        
+        <LinearLayout 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            
+             <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简单图片下载" />
+             
+              <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="另一种图片下载" />
+            
+        </LinearLayout>
+         
+
+          <ImageView 
+               android:id="@+id/imv"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+              />
+          
+          
+           <ImageView 
+               android:id="@+id/imv3"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+              />
+</LinearLayout>

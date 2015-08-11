@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="1 Android 自定义View (一)" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="2 Android 自定义View (二)" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="3 Android 自定义View (三) 圆环交替 等待效果" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="4 Android 自定义View (四) 视频音量调控" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="5 Android使用Activity用作弹出式对话框" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="6 Android SwipeRefreshLayout 官方下拉刷新控件介绍" />
+            
+            
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="7 控制反转（Inversion of Control" />
+            
+               <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="8 控制反转（Inversion of Control2" />
+               
+               
+               <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="9 Android 手势检测实战 打造支持缩放平移的图片预览效果（上）" />
+               
+                <Button
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="10 Android 手势检测实战 打造支持缩放平移的图片预览效果（单图）" />
+                
+                
+                 <Button
+                android:id="@+id/btn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="11 Android 手势检测实战 打造支持缩放平移的图片预览效果（ViewPager版）" />
+                 
+                       <Button
+                android:id="@+id/btn12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="12 Android 高仿微信头像截取 打造不一样的自定义控件" />
+                       
+                            
+                       <Button
+                android:id="@+id/btn13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="13 静态的使用Fragment" />
+                       
+                                   
+                       <Button
+                android:id="@+id/btn14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="14 动态的使用Fragment" />
+                       
+                                  <Button
+                android:id="@+id/btn15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="15 管理Fragment回退栈和Fragment与Activity通信" />
+                                  
+                                            
+                                  <Button
+                android:id="@+id/btn16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="16 DialogFragment 创建对话框" />
+                                  
+                                                                    
+                                  <Button
+                android:id="@+id/btn17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="17 Aniamtor" />
+                                  
+                                                                                           
+                                  <Button
+                android:id="@+id/btn18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="18 Aniamtor2" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <rotate
+        android:duration="1200"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+        android:startOffset="-1"
+        android:toDegrees="+719" />
+
+</set>
+<!-- android:repeatCount="-1"即表示循环运行或者设置成infinite，配合上android:fromDegrees="0" android:toDegrees="360"表示不间断  可以是 负数 -->
+<!--
+  android:pivotX 旋转中心的X坐标
+　　浮点数或是百分比。浮点数表示相对于Object的左边缘，如5; 百分比表示相对于Object的左边缘，如5%; 另一种百分比表示相对于父容器的左边缘，如5%p; 一般设置为50%表示在Object中心
+　　android:pivotY 旋转中心的Y坐标
+　　浮点数或是百分比。浮点数表示相对于Object的上边缘，如5; 百分比表示相对于Object的上边缘，如5%; 另一种百分比表示相对于父容器的上边缘，如5%p; 一般设置为50%表示在Object中心
+-->
+<!-- android:interpolator表示变化率，但不是运行速度。一个插补属性，可以将动画效果设置为加速，减速，反复，反弹等。默认为开始和结束慢中间快， -->

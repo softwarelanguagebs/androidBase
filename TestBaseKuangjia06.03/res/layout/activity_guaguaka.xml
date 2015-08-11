@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hyman="http://schemas.android.com/apk/res/com.example.testbase.kuangjia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.testbase.imooc.guaguaka.view.GuaGuaKa
+        android:id="@+id/id_guaguaka"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        hyman:text1="￥500,0000"
+        hyman:textColor1="#ff00f0"
+        hyman:textSize1="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:padding="3dp"
+    android:clickable="true"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/frame_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/iv_msg_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:src="@drawable/msg_tips" />
+
+        <ImageView
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6.0dip"
+            android:padding="5dp"
+            android:src="@drawable/new_friends_icon" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_new_name"
+        android:textColor="#3e3e39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/frame_new"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="新朋友"
+        android:textSize="20sp" />
+
+</RelativeLayout>
